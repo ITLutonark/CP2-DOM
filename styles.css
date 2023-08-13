@@ -1,0 +1,42 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    text-decoration: black;
+    font-size: 20px;
+}
+
+.catBlock{
+    border: solid black 1px;
+    width: 300px;
+    padding: 5px;
+    height: fit-content;
+}
+
+.catName{
+    text-align: center;
+    text-decoration: brown;
+    font-size: 18px;
+}
+
+.divImg{
+    position: relative;
+}
+
+.favourite{
+    background-color: red;
+}
+
+.rating{
+    padding-top: 10px;
+}
+
+.star{
+    color: #c4bc00;
+    padding-left: 5px;
+}
